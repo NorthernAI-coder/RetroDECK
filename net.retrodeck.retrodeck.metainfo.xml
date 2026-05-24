@@ -101,12 +101,14 @@
     <project_license>GPL-3.0</project_license>
     <metadata_license>CC0-1.0</metadata_license>
     <releases>
-        <release version="0.10.9b" date="2026-05-24">
+        <release version="0.10.9b" date="2026-05-26">
             <url>https://retrodeck.readthedocs.io/en/latest/wiki_rd_versions/version_0.10.0b/0.10.9b/</url>
             <description>
                 <p>FIXED:</p>
                 <ul>
-                    <li>RETROARCH: Screenshot folder.</li>
+                    <li>RETROARCH: Missing retroarch screenshot folder in screenshots.</li>
+                    <li>RETROARCH: Missing assets folders for: cannonball, dinothwar, DirkSimple, dolphin-emu (core), pcsx2 (LRPS2), ppsspp (core), nxengine, qemu, xrick in bios.</li>
+                    <li>RETROARCH: Missing assets files ecwolf.pk3 and prboom.wad in bios.</li>
                 </ul>
                 <p>UPDATED:</p>
                 <ul>
