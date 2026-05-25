@@ -107,7 +107,7 @@
                 <p>FIXED:</p>
                 <ul>
                     <li>RETROARCH: Fixed LRPS2 directory mappings to align with RetroDeck core directories (saves, textures, shaders, bios).</li>
-                    <li>RETROARCH: Added missing retroarch screenshot folder. </li>
+                    <li>RETROARCH: Readded missing retroarch screenshot folder in retrodeck/screenshots that was gone in some installations.</li>
                     <li>RETROARCH: Added missing bios asset folders for: cannonball, dinothar, DirkSimple, dolphin-emu (core), nxengine, pcsx2 (LRPS2), ppsspp (core), qemu, and xrick in bios.</li>
                     <li>RETROARCH: Added missing assets files: ecwolf.pk3 and prboom.wad in bios.</li>
                 </ul>
