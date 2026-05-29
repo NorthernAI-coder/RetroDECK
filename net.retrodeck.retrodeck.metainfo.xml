@@ -101,15 +101,17 @@
     <project_license>GPL-3.0</project_license>
     <metadata_license>CC0-1.0</metadata_license>
     <releases>
-        <release version="0.10.9b" date="2026-05-26">
+        <release version="0.10.9b" date="2026-05-30">
             <url>https://retrodeck.readthedocs.io/en/latest/wiki_rd_versions/version_0.10.0b/0.10.9b/</url>
             <description>
-                <p>FIXED:</p>
+                <p>FIXED/CHANGED:</p>
                 <ul>
                     <li>RETROARCH: Fixed LRPS2 directory mappings to align with RetroDeck core directories (saves, textures, shaders, bios).</li>
                     <li>RETROARCH: Readded missing retroarch screenshot folder in retrodeck/screenshots that was gone in some installations.</li>
                     <li>RETROARCH: Added missing bios asset folders for: cannonball, dinothar, DirkSimple, dolphin-emu (core), nxengine, pcsx2 (LRPS2), ppsspp (core), qemu, and xrick in bios.</li>
                     <li>RETROARCH: Added missing assets files: ecwolf.pk3 and prboom.wad in bios.</li>
+                    <li>RPCS3: Changed build source from Flathub Flatpak to AppImage due to recurring issues with the Flathub package.</li>
+                    <li>VITA3K: Due to a major emulator overhaul, configuration files were reset to ensure compatibility with the new changes.</li>
                 </ul>
                 <p>UPDATED:</p>
                 <ul>
